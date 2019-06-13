@@ -8,7 +8,8 @@ import java.util.List;
 
 @RestController
 //@CrossOrigin(origins = "http://localhost:4200")
-@CrossOrigin(origins = "https://people-finder-app.herokuapp.com")
+//@CrossOrigin(origins = "https://people-finder-app.herokuapp.com")
+@CrossOrigin
 public class PersonController {
 
     private final PersonService personService;
