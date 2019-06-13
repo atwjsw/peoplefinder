@@ -12,4 +12,5 @@
 * search by first name: http://localhost:8080/persons?lastName=Doe
 
 [![Build Status](https://travis-ci.org/atwjsw/peoplefinder.svg?branch=master)](https://travis-ci.org/atwjsw/peoplefinder)
+[![codecov](https://codecov.io/gh/atwjsw/peoplefinder/branch/master/graph/badge.svg)](https://codecov.io/gh/atwjsw/peoplefinder)
 
