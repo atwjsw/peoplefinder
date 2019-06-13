@@ -17,15 +17,15 @@ public class PersonService {
         this.personRepository = personRepository;
     }
 
-    public Iterable<Person> getAllPersons() {
+    public List<Person> getAllPersons() {
         return this.personRepository.findAll();
     }
 
-    public Iterable<Person> getAllPersonsByFirstName(String firstName) {
+    public List<Person> getAllPersonsByFirstName(String firstName) {
         return this.personRepository.findByFirstName(firstName);
     }
 
-    public Iterable<Person> getAllPersonsByLastName(String lastName) {
+    public List<Person> getAllPersonsByLastName(String lastName) {
         return this.personRepository.findByLastName(lastName);
     }
 
